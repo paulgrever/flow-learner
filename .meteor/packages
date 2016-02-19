@@ -20,3 +20,4 @@ kadira:blaze-layout
 kadira:flow-router
 arillo:flow-router-helpers
 materialize:materialize
+fourseven:scss

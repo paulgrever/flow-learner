@@ -1,6 +1,6 @@
 Template.singlePost.onCreated(function () {
-  let id = FlowRouter.getParam('postId');
-  this.subscribe('singlePost', id);
+  var postId = FlowRouter.getParam('postId');
+  this.subscribe('singlePost', postId);
 });
 
 Template.singlePost.helpers({
